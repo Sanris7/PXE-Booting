@@ -7,4 +7,4 @@ menu title PXE Boot Menu
 label 1
     menu label ^1) Install CentOS 7
     kernel centos7/vmlinuz
-    append initrd=centos7/initrd.img ip=dhcp inst.repo=ftp://192.168.97.141/pub/ ks=ftp://192.168.97.141/pub/ks/ks.cfg 
+    append initrd=centos7/initrd.img ip=dhcp inst.repo=ftp://192.168.97.239/pub/ ks=ftp://192.168.97.239/pub/ks/ks.cfg

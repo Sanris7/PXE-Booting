@@ -6,5 +6,5 @@ menu title PXE Boot Menu
 
 label 1
     menu label ^1) Install CentOS 9
-    kernel centos7/vmlinuz
-    append initrd=centos7/initrd.img ip=dhcp inst.repo=ftp://192.168.163.83/pub/centos9 ks=ftp://192.168.163.83/pub/kickstart/centos9.cfg
+    kernel centos9/vmlinuz
+    append initrd=centos9/initrd.img ip=dhcp inst.repo=ftp://192.168.163.96/pub/centos9 ks=ftp://192.168.163.96/pub/kickstart/centos9.cfg
